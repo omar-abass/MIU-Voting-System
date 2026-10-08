@@ -4,8 +4,6 @@
 
 ### Online Voting System for Misr International University
 
-<img src="https://www.miuegypt.edu.eg/wp-content/uploads/2024/02/MIU-Logo.png" alt="Misr International University Logo" width="180"/>
-
 <br>
 
 **A secure and organized web-based voting platform designed for university elections and voting events.**

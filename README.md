@@ -12,7 +12,7 @@
 
 ![Status](https://img.shields.io/badge/Status-In%20Development-orange)
 ![Frontend](https://img.shields.io/badge/Frontend-React%20%2B%20Vite-blue)
-![Backend](https://img.shields.io/badge/Backend-PHP-777BB4)
+![Backend](https://img.shields.io/badge/Backend-Node.js%20%2B%20Express.js-339933)
 ![Database](https://img.shields.io/badge/Database-MySQL-4479A1)
 
 </div>
@@ -197,7 +197,8 @@ Admin
 
 ## Backend
 
-- **PHP**
+- **Node.js**
+- **Express.js**
 - **REST API**
 
 ## Database
@@ -231,19 +232,19 @@ The system follows a client-server architecture.
                │
                │ HTTP / API Requests
                ▼
-┌─────────────────────────────┐
-│                             │
-│          PHP API            │
-│                             │
-│  ┌────────┐ ┌────────────┐ │
-│  │ Routes │ │ Controllers│ │
-│  └────────┘ └────────────┘ │
-│                             │
-│  ┌────────┐ ┌────────────┐ │
-│  │ Models │ │ Middleware │ │
-│  └────────┘ └────────────┘ │
-│                             │
-└──────────────┬──────────────┘
+┌───────────────────────────────────────┐
+│                                       │
+│    Node.js + Express.js Backend       │
+│                                       │
+│  ┌────────┐ ┌────────────┐           │
+│  │ Routes │ │ Controllers│           │
+│  └────────┘ └────────────┘           │
+│                                       │
+│  ┌────────┐ ┌────────────┐           │
+│  │ Models │ │ Middleware │           │
+│  └────────┘ └────────────┘           │
+│                                       │
+└───────────────────┬───────────────────┘
                │
                │ Database Queries
                ▼
@@ -265,23 +266,23 @@ The system follows a client-server architecture.
 ### Architecture Flow
 
 ```text
-React
+React Frontend
   │
-  │ API Request
+  │ REST API Request
   ▼
-PHP Backend
+Node.js + Express.js Backend
   │
   │ SQL Query
   ▼
 MySQL
   │
-  │ Response
+  │ Query Result
   ▼
-PHP Backend
+Node.js + Express.js Backend
   │
   │ API Response
   ▼
-React
+React Frontend
 ```
 
 ---
@@ -389,13 +390,24 @@ MIU-Voting-System/
 │
 ├── backend/
 │   │
-│   ├── config/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── middleware/
+│   ├── src/
+│   │   ├── config/
+│   │   │   ├── database.js
+│   │   │   └── config.js
+│   │   ├── controllers/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   ├── middleware/
+│   │   ├── services/
+│   │   ├── utils/
+│   │   ├── app.js
+│   │   └── server.js
 │   ├── database/
-│   └── index.php
+│   │   ├── schema.sql
+│   │   └── seed.sql
+│   ├── .env.example
+│   ├── .gitignore
+│   └── package.json
 │
 └── README.md
 ```
@@ -455,8 +467,8 @@ The project development is expected to follow these stages:
 
 ### Phase 2 — Backend Development
 
-- Set up PHP backend.
-- Connect PHP to MySQL.
+- Set up Node.js + Express.js backend.
+- Connect Node.js + Express.js to MySQL.
 - Implement authentication.
 - Implement user management.
 - Implement election management.
@@ -475,7 +487,7 @@ The project development is expected to follow these stages:
 
 ### Phase 4 — Integration
 
-- Connect React frontend with PHP APIs.
+- Connect React frontend with Node.js + Express.js APIs.
 - Integrate authentication.
 - Integrate voting functionality.
 - Integrate database operations.

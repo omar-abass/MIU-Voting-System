@@ -1,3 +1,126 @@
 {
-  "_placeholder": "Original contents were not present in this checkout."
+  "app": {
+    "name": "MIU Online Voting System",
+    "universityName": "Misr International University",
+    "logoCaption": "Misr International University"
+  },
+  "common": {
+    "actions": "Actions",
+    "back": "Back",
+    "cancel": "Cancel",
+    "close": "Close",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "errorTitle": "Something went wrong",
+    "hidePassword": "Hide password",
+    "loading": "Loading…",
+    "no": "No",
+    "notifications": "Notifications",
+    "open": "Open",
+    "optional": "optional",
+    "retry": "Try again",
+    "save": "Save",
+    "saveChanges": "Save changes",
+    "showPassword": "Show password",
+    "skipToContent": "Skip to main content",
+    "yes": "Yes"
+  },
+  "nav": {
+    "about": "About",
+    "account": "Account",
+    "audit": "Audit log",
+    "closeMenu": "Close menu",
+    "clubEvents": "Club events",
+    "clubs": "Clubs",
+    "competition": "Club competition",
+    "competitions": "Competitions",
+    "contact": "Contact",
+    "dashboard": "Dashboard",
+    "events": "Events",
+    "faculties": "Faculties",
+    "home": "Home",
+    "logout": "Log out",
+    "mainNavigation": "Main navigation",
+    "manage": "Manage",
+    "managerPanel": "Club manager panel",
+    "myClubs": "My clubs",
+    "openApp": "Open the app",
+    "openMenu": "Open menu",
+    "overview": "Overview",
+    "profile": "My profile",
+    "results": "Results",
+    "settings": "Settings",
+    "systemSettings": "System settings",
+    "universityEvents": "University events",
+    "users": "Users"
+  },
+  "theme": {
+    "dark": "Dark",
+    "light": "Light",
+    "switchToDark": "Switch to dark mode",
+    "switchToLight": "Switch to light mode"
+  },
+  "language": {
+    "switchTo": "Switch language"
+  },
+  "states": {
+    "cancelled": "Cancelled",
+    "closed": "Completed",
+    "draft": "Draft",
+    "open": "Active",
+    "published": "Published",
+    "results_published": "Results published",
+    "scheduled": "Upcoming"
+  },
+  "roles": {
+    "admin": "Admin",
+    "club_manager": "Club manager",
+    "student": "Student",
+    "system": "System"
+  },
+  "footer": {
+    "subline": "Misr International University – every vote is verified, private and counted once.",
+    "tagline": "Your Voice. Our Future."
+  },
+  "notFound": {
+    "backHome": "Back to the home page",
+    "backToApp": "Back to my dashboard",
+    "text": "The page you are looking for does not exist or has moved.",
+    "title": "Page not found"
+  },
+  "countdown": {
+    "dhm": "{{d}}d {{h}}h {{m}}m",
+    "hms": "{{h}}h {{m}}m {{s}}s",
+    "ms": "{{m}}m {{s}}s"
+  },
+  "pagination": {
+    "label": "Pagination",
+    "next": "Next page",
+    "previous": "Previous page",
+    "showing": "Showing {{from}}–{{to}} of {{total}}",
+    "total": "{{n}} in total"
+  },
+  "charts": {
+    "item": "Item",
+    "viewChart": "View as chart",
+    "viewTable": "View as table"
+  },
+  "otp": {
+    "digit": "Digit {{n}} of {{total}}",
+    "expired": "This code has expired. Request a new one.",
+    "expiresIn": "The code expires in {{time}}",
+    "groupLabel": "Verification code",
+    "resend": "Send a new code",
+    "resendIn": "Send a new code in {{seconds}}s",
+    "resent": "A new code has been sent.",
+    "sentTo": "We sent a verification code by SMS to",
+    "verify": "Verify"
+  },
+  "upload": {
+    "change": "Change image",
+    "choose": "Choose an image",
+    "hint": "JPG, PNG or WebP, up to {{mb}} MB.",
+    "remove": "Remove image"
+  }
 }

@@ -26,3 +26,4 @@ if (!window.matchMedia) {
 }
 window.ResizeObserver = window.ResizeObserver || class { observe() {} unobserve() {} disconnect() {} };
 window.scrollTo = vi.fn();
+

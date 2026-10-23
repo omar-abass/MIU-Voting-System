@@ -1,3 +1,126 @@
 {
-  "_placeholder": "Original contents were not present in this checkout."
+  "app": {
+    "name": "نظام التصويت الإلكتروني – MIU",
+    "universityName": "جامعة مصر الدولية",
+    "logoCaption": "جامعة مصر الدولية"
+  },
+  "common": {
+    "actions": "الإجراءات",
+    "back": "رجوع",
+    "cancel": "إلغاء",
+    "close": "إغلاق",
+    "confirm": "تأكيد",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "errorTitle": "حدث خطأ ما",
+    "hidePassword": "إخفاء كلمة المرور",
+    "loading": "جارٍ التحميل…",
+    "no": "لا",
+    "notifications": "الإشعارات",
+    "open": "فتح",
+    "optional": "اختياري",
+    "retry": "حاول مرة أخرى",
+    "save": "حفظ",
+    "saveChanges": "حفظ التغييرات",
+    "showPassword": "إظهار كلمة المرور",
+    "skipToContent": "التخطي إلى المحتوى الرئيسي",
+    "yes": "نعم"
+  },
+  "nav": {
+    "about": "من نحن",
+    "account": "الحساب",
+    "audit": "سجل التدقيق",
+    "closeMenu": "إغلاق القائمة",
+    "clubEvents": "فعاليات الأندية",
+    "clubs": "الأندية",
+    "competition": "مسابقة الأندية",
+    "competitions": "المسابقات",
+    "contact": "تواصل معنا",
+    "dashboard": "لوحة التحكم",
+    "events": "الفعاليات",
+    "faculties": "الكليات",
+    "home": "الرئيسية",
+    "logout": "تسجيل الخروج",
+    "mainNavigation": "التنقل الرئيسي",
+    "manage": "الإدارة",
+    "managerPanel": "لوحة مدير النادي",
+    "myClubs": "أنديتي",
+    "openApp": "فتح التطبيق",
+    "openMenu": "فتح القائمة",
+    "overview": "نظرة عامة",
+    "profile": "ملفي الشخصي",
+    "results": "النتائج",
+    "settings": "الإعدادات",
+    "systemSettings": "إعدادات النظام",
+    "universityEvents": "فعاليات الجامعة",
+    "users": "المستخدمون"
+  },
+  "theme": {
+    "dark": "داكن",
+    "light": "فاتح",
+    "switchToDark": "التبديل إلى الوضع الداكن",
+    "switchToLight": "التبديل إلى الوضع الفاتح"
+  },
+  "language": {
+    "switchTo": "تغيير اللغة"
+  },
+  "states": {
+    "cancelled": "ملغاة",
+    "closed": "مكتملة",
+    "draft": "مسودة",
+    "open": "جارية",
+    "published": "منشورة",
+    "results_published": "النتائج منشورة",
+    "scheduled": "قادمة"
+  },
+  "roles": {
+    "admin": "مسؤول",
+    "club_manager": "مدير نادي",
+    "student": "طالب",
+    "system": "النظام"
+  },
+  "footer": {
+    "subline": "جامعة مصر الدولية – كل صوت موثّق وسرّي ويُحتسب مرة واحدة.",
+    "tagline": "صوتك. مستقبلنا."
+  },
+  "notFound": {
+    "backHome": "العودة إلى الصفحة الرئيسية",
+    "backToApp": "العودة إلى لوحة التحكم",
+    "text": "الصفحة التي تبحث عنها غير موجودة أو تم نقلها.",
+    "title": "الصفحة غير موجودة"
+  },
+  "countdown": {
+    "dhm": "{{d}} ي {{h}} س {{m}} د",
+    "hms": "{{h}} س {{m}} د {{s}} ث",
+    "ms": "{{m}} د {{s}} ث"
+  },
+  "pagination": {
+    "label": "ترقيم الصفحات",
+    "next": "الصفحة التالية",
+    "previous": "الصفحة السابقة",
+    "showing": "عرض {{from}}–{{to}} من {{total}}",
+    "total": "الإجمالي: {{n}}"
+  },
+  "charts": {
+    "item": "العنصر",
+    "viewChart": "عرض كرسم بياني",
+    "viewTable": "عرض كجدول"
+  },
+  "otp": {
+    "digit": "الرقم {{n}} من {{total}}",
+    "expired": "انتهت صلاحية هذا الرمز. اطلب رمزًا جديدًا.",
+    "expiresIn": "تنتهي صلاحية الرمز خلال {{time}}",
+    "groupLabel": "رمز التحقق",
+    "resend": "إرسال رمز جديد",
+    "resendIn": "إرسال رمز جديد خلال {{seconds}} ث",
+    "resent": "تم إرسال رمز جديد.",
+    "sentTo": "أرسلنا رمز التحقق برسالة نصية إلى",
+    "verify": "تحقق"
+  },
+  "upload": {
+    "change": "تغيير الصورة",
+    "choose": "اختر صورة",
+    "hint": "JPG أو PNG أو WebP حتى {{mb}} ميجابايت.",
+    "remove": "إزالة الصورة"
+  }
 }
